@@ -1944,6 +1944,7 @@ a:hover { color: var(--color-accent); }
   align-items: center;
   padding: 40px 24px;
   overflow: hidden;
+  background: linear-gradient(180deg, #F8FAFC 0%, #ffffff 100%);
 }
 
 .gs-hero::before {
@@ -2658,6 +2659,179 @@ a:hover { color: var(--color-accent); }
   color: #C9A84C;
 }
 
+/* ===== LANDING DARK MODE ===== */
+[data-theme="dark"] .gs-hero {
+  background: linear-gradient(180deg, #0B1B2E 0%, #0f0f1a 65%);
+}
+
+[data-theme="dark"] .gs-hero-tag {
+  background: rgba(201, 168, 76, 0.15);
+}
+
+[data-theme="dark"] .gs-hero-tag span {
+  color: #E8D48B;
+}
+
+[data-theme="dark"] .gs-hero-title {
+  color: #F1F5F9;
+}
+
+[data-theme="dark"] .gs-hero-title-accent {
+  color: #C9A84C;
+}
+
+[data-theme="dark"] .gs-hero-subtitle {
+  color: #94A3B8;
+}
+
+[data-theme="dark"] .gs-tracking-widget {
+  background: #1a1a2e;
+  border-color: #2e3040;
+}
+
+[data-theme="dark"] .gs-tracking-form {
+  background: #1a1a2e;
+}
+
+[data-theme="dark"] .gs-tracking-input {
+  background: #24243a;
+  border-color: #3a3a50;
+  color: #E5E7EB;
+}
+
+[data-theme="dark"] .gs-tracking-input::placeholder {
+  color: #6b7280;
+}
+
+[data-theme="dark"] .gs-tracking-input:focus {
+  border-color: #C9A84C;
+  background: #24243a;
+  box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.2);
+}
+
+[data-theme="dark"] .gs-tracking-btn {
+  background: #C9A84C;
+  color: #0B1B2E;
+}
+
+[data-theme="dark"] .gs-tracking-btn:hover {
+  background: #E8D48B;
+}
+
+[data-theme="dark"] .gs-tracking-header {
+  background: #0B1B2E;
+}
+
+[data-theme="dark"] .gs-btn-primary {
+  background: #C9A84C;
+  color: #0B1B2E;
+}
+
+[data-theme="dark"] .gs-btn-primary:hover {
+  background: #E8D48B;
+  color: #0B1B2E;
+  box-shadow: 0 4px 12px rgba(201, 168, 76, 0.35);
+}
+
+[data-theme="dark"] .gs-btn-secondary {
+  color: #C9A84C;
+  border-color: #C9A84C;
+}
+
+[data-theme="dark"] .gs-btn-secondary:hover {
+  background: #C9A84C;
+  color: #0B1B2E;
+}
+
+[data-theme="dark"] .gs-services {
+  background: #0f0f1a;
+}
+
+[data-theme="dark"] .gs-section-title {
+  color: #F1F5F9;
+}
+
+[data-theme="dark"] .gs-section-title::after {
+  background: #C9A84C;
+}
+
+[data-theme="dark"] .gs-service-card {
+  background: #14141f;
+  border-color: #2e3040;
+}
+
+[data-theme="dark"] .gs-service-card:hover {
+  border-color: #C9A84C;
+}
+
+[data-theme="dark"] .gs-service-card h3 {
+  color: #E5E7EB;
+}
+
+[data-theme="dark"] .gs-service-card p {
+  color: #9CA3AF;
+}
+
+[data-theme="dark"] .gs-service-icon {
+  background: rgba(201, 168, 76, 0.12);
+  color: #C9A84C;
+}
+
+[data-theme="dark"] .gs-service-card:hover .gs-service-icon {
+  background: #C9A84C;
+  color: #0B1B2E;
+}
+
+[data-theme="dark"] .gs-two-col-section {
+  background: #0f0f1a;
+}
+
+[data-theme="dark"] .gs-two-col-card {
+  background: #14141f;
+  border-color: #2e3040;
+}
+
+[data-theme="dark"] .gs-two-col-text h3 {
+  color: #E5E7EB;
+}
+
+[data-theme="dark"] .gs-two-col-text p {
+  color: #9CA3AF;
+}
+
+[data-theme="dark"] .gs-btn-accent-outline {
+  color: #C9A84C;
+  border-color: #C9A84C;
+}
+
+[data-theme="dark"] .gs-btn-accent-outline:hover {
+  background: #C9A84C;
+  color: #0B1B2E;
+}
+
+[data-theme="dark"] .gs-featured-offer {
+  background: #0f0f1a;
+}
+
+[data-theme="dark"] .gs-featured-text h2 {
+  color: #F1F5F9;
+}
+
+[data-theme="dark"] .gs-featured-text p {
+  color: #9CA3AF;
+}
+
+[data-theme="dark"] .gs-btn-accent {
+  background: #C9A84C;
+  color: #0B1B2E;
+}
+
+[data-theme="dark"] .gs-btn-accent:hover {
+  background: #E8D48B;
+  color: #0B1B2E;
+  box-shadow: 0 4px 12px rgba(201, 168, 76, 0.35);
+}
+
 /* Info Pages */
 .info-page {
   background: var(--color-bg, #ffffff);
@@ -2840,6 +3014,19 @@ a:hover { color: var(--color-accent); }
   color: #64748B;
 }
 
+[data-theme="dark"] .pwa-install-banner {
+  background: #1a1a2e;
+  border-top-color: #2e3040;
+}
+
+[data-theme="dark"] .pwa-install-banner-text strong {
+  color: #E5E7EB;
+}
+
+[data-theme="dark"] .pwa-install-banner-text span {
+  color: #9CA3AF;
+}
+
 /* Map Styles */
 .parcel-map-container {
   width: 100%;
@@ -2873,8 +3060,7 @@ a:hover { color: var(--color-accent); }
   }
 
   .gs-hero::before {
-    left: 0;
-    clip-path: polygon(0 50%, 100% 25%, 100% 100%, 0 100%);
+    display: none;
   }
 
   .gs-hero-left {
@@ -3001,6 +3187,33 @@ a:hover { color: var(--color-accent); }
 
   .gs-stats {
     padding: 48px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gs-stats-container {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .gs-stat-label {
+    max-width: 320px;
+  }
+
+  .gs-hero-title {
+    font-size: 1.75rem;
+  }
+
+  .gs-tracking-widget {
+    border-radius: 14px;
+  }
+
+  .gs-tracking-header {
+    padding: 13px 16px;
+  }
+
+  .gs-tracking-form {
+    padding: 16px;
   }
 }
 .notif-item.unread {
